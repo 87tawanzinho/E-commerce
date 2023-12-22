@@ -12,6 +12,7 @@
 
 @media (max-width: 1200px) {
         .h-three {
+            height: auto;
             margin-top: 0px;
             padding: 0;
            width: max-content;
