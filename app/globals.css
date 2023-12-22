@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.h-three {
+    width: auto;
+    height:650px;
+    padding-left: 40px;
+    margin-top: 40px;
+
+    object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+        .h-three {
+            margin-top: 0px;
+            padding: 0;
+           width: max-content;
+        }
+}

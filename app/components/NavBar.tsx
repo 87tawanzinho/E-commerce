@@ -3,7 +3,7 @@ import menu from "@/public/images/menu.png"
 import heart from "@/public/images/heart.png"
 export default function NavBar () {
     return (
-        <header className="flex flex-col justify-center  gap-10">
+        <header className="flex flex-col justify-center  gap-10 pb-20">
             <p className="text-xs text-center">Order by 13 December to be sure of delivery before Christimas. Shop Here {">"}</p>
 
             <div className="flex justify-around items-center
